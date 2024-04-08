@@ -25,3 +25,37 @@ To run the code, ensure you have the following libraries installed:
 - TensorFlow
 - Matplotlib
 - Pillow
+
+# Implementation
+
+## Load the Dataset
+- Load the MNIST dataset using Keras.
+
+## Preprocess the Data
+- Normalize the pixel values to the range [0, 1].
+
+## Build the Model
+- Design a Convolutional Neural Network (CNN) architecture using Keras Sequential API.
+
+## Compile the Model
+- Compile the model with appropriate loss function and optimizer.
+
+## Train the Model
+- Train the model on the training data and validate it on the testing data.
+
+## Evaluate the Model
+- Evaluate the model's performance on the testing data.
+
+## Save and Load the Model
+- Save the trained model to a file and load it for later use.
+
+# Results
+
+After training the model, we achieved an accuracy of around 98% on the testing dataset.
+
+# Conclusion
+
+This project demonstrates the implementation of a basic image classifier using Keras. By following the provided steps, you can train your own image classification model and use it for various applications.
+
+Feel free to explore and modify the code according to your requirements!
+
